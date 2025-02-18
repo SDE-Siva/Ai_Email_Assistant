@@ -14,6 +14,7 @@ public class EmailAssistantController {
     private final EmailAssistantService emailAssistantService;
 
     public EmailAssistantController(EmailAssistantService emailAssistantService) {
+
         this.emailAssistantService = emailAssistantService;
     }
 
